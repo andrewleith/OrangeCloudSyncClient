@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="63c3441e-e5c0-4139-aaf7-d4372ceb895e" name="leitand@C197214 2012-02-28 12:31:27" runUser="STATCAN\leitand" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6b9cdfa-8002-4092-9be6-5ced691a8b54">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\leitand\Documents\personal\OCClient\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="leitand_C197214 2012-02-28 12_31_27">
+      <DeploymentItem filename="C:\Users\leitand\Documents\personal\OCClient\ClassLibrary1\bin\Debug\OrangeCloudClient.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-28T12:31:27.9328360-05:00" queuing="2012-02-28T12:31:27.9826375-05:00" start="2012-02-28T12:31:27.9963085-05:00" finish="2012-02-28T12:31:40.0062820-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\leitand\documents\personal\occlient\cloudtests\bin\debug\cloudtests.dll" id="c4354811-6397-a698-a918-4c08213e596e">
+      <Execution id="b86f0c41-ee20-4dfc-b3ca-c7f69169a5b4" />
+      <TestMethod codeBase="C:/Users/leitand/Documents/personal/OCClient/CloudTests/bin/Debug/CloudTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CloudTests.UnitTest1, CloudTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c4354811-6397-a698-a918-4c08213e596e" executionId="b86f0c41-ee20-4dfc-b3ca-c7f69169a5b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b86f0c41-ee20-4dfc-b3ca-c7f69169a5b4" testId="c4354811-6397-a698-a918-4c08213e596e" testName="TestMethod1" computerName="C197214" duration="00:00:11.6563714" startTime="2012-02-28T12:31:28.0148620-05:00" endTime="2012-02-28T12:31:39.9437860-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b86f0c41-ee20-4dfc-b3ca-c7f69169a5b4">
+      <Output>
+        <StdOut>No meta data found, starting fresh.
+Repo creation: 00:00:00.0126945
+Error getting file listing
+Repo creation: 00:00:00.0019530
+Error getting file listing</StdOut>
+        <ErrorInfo>
+          <Message>Test method CloudTests.UnitTest1.TestMethod1 threw exception: 
+System.IO.FileNotFoundException: Could not find file 'C:\test.txt'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.ReadAllBytes(String path)
+   at OrangeCloudClient.File..ctor(String fullFilePath, DateTime lastModified, Int64 version) in C:\Users\leitand\Documents\personal\OCClient\ClassLibrary1\File.cs:line 37
+   at OrangeCloudClient.Repository.GetFiles() in C:\Users\leitand\Documents\personal\OCClient\ClassLibrary1\Repository.cs:line 252
+   at OrangeCloudClient.Repository.SyncWithTheCloud() in C:\Users\leitand\Documents\personal\OCClient\ClassLibrary1\Repository.cs:line 101
+   at CloudTests.UnitTest1.TestMethod1() in C:\Users\leitand\Documents\personal\OCClient\CloudTests\UnitTest1.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

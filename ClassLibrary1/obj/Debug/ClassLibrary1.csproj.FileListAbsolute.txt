@@ -1,0 +1,9 @@
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\bin\Debug\OrangeCloudClient.dll.config
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\bin\Debug\OrangeCloudClient.dll
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\bin\Debug\OrangeCloudClient.pdb
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\obj\Debug\OrangeCloudClient.dll
+C:\Users\leitand\Documents\Visual Studio 2010\Projects\OCClient\ClassLibrary1\obj\Debug\OrangeCloudClient.pdb

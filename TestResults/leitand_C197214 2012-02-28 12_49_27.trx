@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a0ff83d7-47d1-4d9f-b15b-b542255a0558" name="leitand@C197214 2012-02-28 12:49:27" runUser="STATCAN\leitand" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f6b9cdfa-8002-4092-9be6-5ced691a8b54">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\leitand\Documents\personal\OCClient\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="leitand_C197214 2012-02-28 12_49_27">
+      <DeploymentItem filename="C:\Users\leitand\Documents\personal\OCClient\ClassLibrary1\bin\Debug\OrangeCloudClient.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-28T12:49:27.5297530-05:00" queuing="2012-02-28T12:49:27.5697895-05:00" start="2012-02-28T12:49:27.5863900-05:00" finish="2012-02-28T12:49:40.0113760-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\leitand\documents\personal\occlient\cloudtests\bin\debug\cloudtests.dll" id="c4354811-6397-a698-a918-4c08213e596e">
+      <Execution id="4e706fd2-a601-4c08-bce4-d9f0a014c6e0" />
+      <TestMethod codeBase="C:/Users/leitand/Documents/personal/OCClient/CloudTests/bin/Debug/CloudTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CloudTests.UnitTest1, CloudTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c4354811-6397-a698-a918-4c08213e596e" executionId="4e706fd2-a601-4c08-bce4-d9f0a014c6e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4e706fd2-a601-4c08-bce4-d9f0a014c6e0" testId="c4354811-6397-a698-a918-4c08213e596e" testName="TestMethod1" computerName="C197214" duration="00:00:12.1036866" startTime="2012-02-28T12:49:27.6117790-05:00" endTime="2012-02-28T12:49:39.9752455-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e706fd2-a601-4c08-bce4-d9f0a014c6e0">
+      <Output>
+        <StdOut>OCINFO: No meta data found, starting fresh.
+OCINFO: Repo creation: 00:00:00.0029295
+OCINFO: Repo creation: 00:00:00
+OCINFO: Repo creation: 00:00:00
+OCINFO: Repo creation: 00:00:00</StdOut>
+        <StdErr>OCERR: Transport error: unable to push file: \test.txt : 0 (The remote server returned an error: (503) Server Unavailable.)
+OCERR: Add: \test.txt: No response from server at 12:49:27 PM.  Will try again later
+OCERR: Transport error: unable to get file listing
+OCERR: Transport error: unable to get file listing
+OCERR: Transport error: unable to push file: \test.txt : 0 (The remote server returned an error: (503) Server Unavailable.)
+OCERR: Add: \test.txt: No response from server at 12:49:39 PM.  Will try again later
+OCERR: Transport error: unable to get file listing
+OCERR: Transport error: unable to get file listing</StdErr>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. Client1 has no record in metadata of: \test.txt</Message>
+          <StackTrace>   at CloudTests.UnitTest1.TestMethod1() in C:\Users\leitand\Documents\personal\OCClient\CloudTests\UnitTest1.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
